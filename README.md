@@ -1,4 +1,4 @@
-# Android device tree for oplus ossi (ossi)
+# Android Device Tree for Realme Narzo 30 Pro (RMX2117/L1)
 
 ```
 #
