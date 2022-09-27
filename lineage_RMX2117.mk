@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX2117L1 device
-$(call inherit-product, device/realme/RMX2117L1/device.mk)
+$(call inherit-product, device/realme/RMX2117/device.mk)
 
-PRODUCT_DEVICE := RMX2117L1
-PRODUCT_NAME := lineage_RMX2117L1
+PRODUCT_DEVICE := RMX2117
+PRODUCT_NAME := lineage_RMX2117
 PRODUCT_BRAND := Realme
-PRODUCT_MODEL := RMX2117
+PRODUCT_MODEL := Realme Narzo 30 Pro
 PRODUCT_MANUFACTURER := Realme
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme

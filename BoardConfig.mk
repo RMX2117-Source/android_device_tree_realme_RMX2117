@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/RMX2117L1
+DEVICE_PATH := device/realme/RMX2117
 
 # Architecture
 TARGET_ARCH := arm64
@@ -44,8 +44,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := RMX2117L1_defconfig
-TARGET_KERNEL_SOURCE := kernel/realme/RMX2117L1
+TARGET_KERNEL_CONFIG := RMX2117_defconfig
+TARGET_KERNEL_SOURCE := kernel/realme/RMX2117
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -102,4 +102,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/oplus/ossi/BoardConfigVendor.mk
+include vendor/realme/RMX2117/BoardConfigVendor.mk

@@ -74,4 +74,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/realme/RMX2117L1/RMX2117L1-vendor.mk)
+$(call inherit-product, vendor/realme/RMX2117/RMX2117-vendor.mk)
