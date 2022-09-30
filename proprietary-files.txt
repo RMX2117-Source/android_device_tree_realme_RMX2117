@@ -1,4 +1,4 @@
-# Unpinned blobs from sys_mssi_64_cn_armv82-user 12 SP1A.210812.016 1660047623876 release-keys
+# Unpinned blobs from RMX2117-user 12 SP1A.210812.016 1660047623876 release-keys
 
 # ADSP
 odm/lib64/libadsprpc.so
